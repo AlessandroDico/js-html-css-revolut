@@ -60,12 +60,12 @@ body {
     width: 100%;
 }
 
-.navbar-left .menu li, .navbar-right .menu li {
+.navbar-left li, .navbar-right .menu li {
     display: inline-block;
     margin: 0 10px;
 }
 
-.navbar-left .menu li > a, .navbar-right .menu li > a {
+.navbar-left li > a, .navbar-right .menu li > a {
     display: inline-block;
     padding: 20px 5px;
     font-size: 20px;
