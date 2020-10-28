@@ -92,8 +92,8 @@ button.app-download {
 
 /* ____________________INIZIO DROPDOWN MENU____________ */
 
-.dropdown-menu {
-
+.dropdown-container {
+    display: none;
 }
 
 .drop-funzionalita {
@@ -104,15 +104,6 @@ button.app-download {
     left: -200px;
     display: flex;
     justify-content: space-around;
-    display: none;
-}
-/*
-.drop-funzionalita.hidden {
-    display: none;
-} */
-
-.drop-funzionalita.visible {
-    display: inline-block;
 }
 
 .first-drop .drop-funzionalita li {

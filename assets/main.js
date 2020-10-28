@@ -2,12 +2,17 @@
 $(document).ready(function(){
 
     $('.first-drop').mouseenter(function(){
-        $('.drop-funzionalita').toggleClass('hidden visible');
+        $('.dropdown-container').toggle();
+
     });
 
     $('.first-drop').mouseleave(function(){
-        $('.drop-funzionalita').toggleClass('hidden visible');
+        $('.dropdown-container').toggle();
     });
+
+
+
+
 
 
 
