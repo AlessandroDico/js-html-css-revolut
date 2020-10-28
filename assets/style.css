@@ -92,7 +92,8 @@ button.app-download {
 
 /* ____________________INIZIO DROPDOWN MENU____________ */
 
-.dropdown-container {
+/* PRIMO DROP */
+.dropdown-container-one {
     display: none;
 }
 
@@ -112,6 +113,32 @@ button.app-download {
 }
 
 .first-drop .drop-funzionalita li > a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+}
+
+/* SECONDO DROP */
+.dropdown-container-two {
+    display: none;
+}
+
+.drop-abbonamenti {
+    background-color: grey;
+    position: absolute;
+    top: 80px;
+    left: 175px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-drop .drop-abbonamenti li {
+    display: block;
+    margin: 20px 0;
+}
+
+.second-drop .drop-abbonamenti li > a {
     display: block;
     padding: 10px 20px;
     font-size: 18px;
