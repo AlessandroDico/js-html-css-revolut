@@ -19,6 +19,14 @@ $(document).ready(function(){
         $('.dropdown-container-two').toggle();
     });
 
+    // TERZO DROPDOWN MENU
+    $('.third-drop').mouseenter(function(){
+        $('.dropdown-container-three').toggle();
+    });
+    $('.third-drop').mouseleave(function(){
+        $('.dropdown-container-three').toggle();
+    });
+
 
 
 
