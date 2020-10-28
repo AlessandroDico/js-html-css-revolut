@@ -40,16 +40,25 @@ $(document).ready(function(){
 // FACCIO UNA PROVA PER UNIFICARE TUTTE QUESTE FUNZIONI
 
 
-    $('#special-menu > li').mouseenter(function(){
-        $('#special-menu > li > div:first-of-type').each(function(){
-            $(this).toggle();
-        });
-    });
+    // $('#special-menu > li').mouseenter(function(){
+    //     $('#special-menu > li > div:first-of-type').each(function(){
+    //         $(this).toggle();
+    //     });
+    // });
+    //
+    // $('#special-menu > li').mouseleave(function(){
+    //     $('#special-menu > li > div:first-of-type').each(function(){
+    //         $(this).toggle();
+    //     });
+    // });
 
+    $('#special-menu > li').mouseenter(function(){
+            $(this).children(".select").addClass('show-me');
+
+    });
     $('#special-menu > li').mouseleave(function(){
-        $('#special-menu > li > div:first-of-type').each(function(){
-            $(this).toggle();
-        });
+            $(this).children(".select").removeClass('show-me');
+
     });
 
 
