@@ -110,7 +110,7 @@ button.app-download {
 .first-drop .drop-funzionalita li,
 .second-drop .drop-abbonamenti li,
 .third-drop .drop-chi-siamo li,
-.fouth-drop .drop-aiuto li {
+.fourth-drop .drop-aiuto li {
     display: block;
     margin: 20px 0;
 }
@@ -153,6 +153,19 @@ button.app-download {
     justify-content: space-around;
 }
 
+/* QUARTO DROP */
+.dropdown-container-four {
+    display: none;
+}
+
+.drop-aiuto {
+    background-color: grey;
+    position: absolute;
+    top: 80px;
+    left: 425px;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
