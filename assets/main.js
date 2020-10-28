@@ -1,6 +1,7 @@
 // console.log('hello');
 $(document).ready(function(){
 
+/*
 // PRIMO DROPDOWN MENU
     $('.first-drop').mouseenter(function(){
         $('.dropdown-container-one').toggle();
@@ -34,21 +35,22 @@ $(document).ready(function(){
     $('.fourth-drop').mouseleave(function(){
         $('.dropdown-container-four').toggle();
     });
+*/
+
+// FACCIO UNA PROVA PER UNIFICARE TUTTE QUESTE FUNZIONI
 
 
+    $('#special-menu > li').mouseenter(function(){
+        $('#special-menu > li > div:first-of-type').each(function(){
+            $(this).toggle();
+        });
+    });
 
-
-
-
-
-
-
-
-
-
-
-
-
+    $('#special-menu > li').mouseleave(function(){
+        $('#special-menu > li > div:first-of-type').each(function(){
+            $(this).toggle();
+        });
+    });
 
 
 });
