@@ -19,7 +19,6 @@ a {
 }
 
 body {
-    background-color: rebeccapurple;
     font-family: sans-serif;
 }
 
@@ -27,13 +26,11 @@ body {
 
 .navbar {
     height: 100px;
-    background-color: red;
     display: flex;
     justify-content: space-between;
 }
 
 .navbar-left {
-    background-color: orange;
     height: 100%;
     width: 35%;
     display: flex;
@@ -42,12 +39,12 @@ body {
 }
 
 .navbar-right {
-    background-color: yellow;
     height: 100%;
     width: 65%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 
 .logo {
@@ -63,21 +60,21 @@ body {
     width: 100%;
 }
 
-.navbar-left li, .navbar-right li {
+.navbar-left .menu li, .navbar-right .menu li {
     display: inline-block;
     margin: 0 10px;
 }
 
-.navbar-left li > a, .navbar-right li > a {
+.navbar-left .menu li > a, .navbar-right .menu li > a {
     display: inline-block;
-    padding: 5px 5px;
+    padding: 20px 5px;
     font-size: 20px;
     color: #555;
 }
 
 button {
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
     margin: 0 10px;
 }
@@ -91,3 +88,58 @@ button.app-download {
     color: white;
     background-color: black;
 }
+
+
+/* ____________________INIZIO DROPDOWN MENU____________ */
+
+.dropdown-menu {
+
+}
+
+.drop-funzionalita {
+    width: 900px;
+    background-color: grey;
+    position: absolute;
+    top: 80px;
+    left: -200px;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+/*
+.drop-funzionalita.hidden {
+    display: none;
+} */
+
+.drop-funzionalita.visible {
+    display: inline-block;
+}
+
+.first-drop .drop-funzionalita li {
+    display: block;
+    margin: 20px 0;
+}
+
+.first-drop .drop-funzionalita li > a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
